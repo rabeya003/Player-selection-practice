@@ -10,8 +10,8 @@ const Cart = ({ carts }) => {
   }
 
   return (
-    <div>
-      <h1 className="selected">Selected person</h1>
+    <div className="menu">
+      <h2 className="selected">Selected person: {carts.length}</h2>
       <h3>
         Name:{" "}
         {carts.map((cart) => (

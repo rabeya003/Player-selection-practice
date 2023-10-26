@@ -21,18 +21,25 @@ const Player = () => {
     }
     setCart(saveCart);
   }, [players]);
+
   const handleAddToCart = (player) => {
-    let newCart = [];
-    const exits = carts.find((cart) => cart.id === player.id);
-    if (!exits) {
-      newCart = [...carts, player];
+    const exists = carts.find((cart) => cart.id === player.id);
+
+    if (!exists) {
+      setCart([...carts, player]); // player cart a na thakle ore add korlam
     } else {
-      alert("Already Exits");
-      newCart = [];
+      // const newCart = carts.map((cart) => {  // carts er moddhe ja value ache ta ami map kore nilam
+      //   if (cart.id === player.id) { // check korlam j ache kina id
+      //   }
+      //   return cart;
+      // });
+      alert("Player already added");
+      // player cart a thakle ore update kore dilam
     }
-    setCart(newCart);
+
     addToDb(player.id);
   };
+
   useEffect(() => {
     fetch("./player.json")
       .then((res) => res.json())
