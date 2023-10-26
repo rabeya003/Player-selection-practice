@@ -1,6 +1,7 @@
 [ 
     { 
       "id": 1, 
+      "quantity":0,
       "name": "Lionel Messi", 
       "img": "https://i.ibb.co/h1YGXQ4/Lionel-Messi-20180626.jpg", 
       "costing_price": 10000000, 
@@ -9,6 +10,7 @@
     }, 
     { 
       "id": 2, 
+      "quantity":0,
       "name": "Cristiano Ronaldo", 
       "img": "https://i.ibb.co/BK4g1QF/Cristiano-Ronaldo-2018.jpg", 
       "costing_price": 9500000, 
@@ -17,6 +19,7 @@
     }, 
     { 
       "id": 3, 
+      "quantity":0,
       "name": "Neymar Jr.", 
       "img": "https://i.ibb.co/BnWCKcs/263429d01a49661b12bd28a003335b00.jpg", 
       "costing_price": 8500000, 
@@ -26,6 +29,7 @@
     { 
       "id": 4, 
       "name": "Kylian Mbappé", 
+      "quantity":0,
       "img": "https://i.ibb.co/YyycvBp/Kylian-Mbappe-celebrating-March-2018-cropped.jpg", 
       "costing_price": 9000000, 
       "star": 4, 
@@ -33,6 +37,7 @@
     }, 
     { 
       "id": 5, 
+      "quantity":0,
       "name": "Sergio Ramos", 
       "img": "https://i.ibb.co/3TCJgTW/Russia-Spain-2017-6.jpg", 
       "costing_price": 7500000, 
@@ -41,6 +46,7 @@
     }, 
     { 
       "id": 6, 
+      "quantity":0,
       "name": "Kevin De Bruyne", 
       "img": "https://i.ibb.co/9cVXLvw/download.jpg", 
       "costing_price": 8000000, 
@@ -49,6 +55,7 @@
     }, 
     { 
       "id": 7, 
+      "quantity":0,
       "name": "Mohamed Salah", 
       "img": "https://i.ibb.co/F3Tjtcc/mohamed-salah.jpg", 
       "costing_price": 8500000, 

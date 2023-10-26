@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./Component/Header/Header";
-import PDetails from "./Component/Header/PDetails/PDetails";
+import PDetails from "./Component/PDetails/PDetails";
+
 import Player from "./Component/Player/Player";
 
 function App() {

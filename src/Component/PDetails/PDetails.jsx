@@ -1,7 +1,8 @@
 import "./PDetails.css";
 
-const PDetails = ({ player }) => {
-  const { name, costing_price, star, email, img } = player || {};
+const PDetails = (props) => {
+  const { name, costing_price, star, img } = props.player || {};
+  const handleAddToCart = props.handleAddToCart;
   return (
     <div className="player">
       <img src={img} alt="" />
@@ -10,7 +11,12 @@ const PDetails = ({ player }) => {
         <p>Price of Costing: ${costing_price}</p>
         <p>Star: {star}</p>
       </div>
-      <button className="btn-cart">Add to Cart</button>
+      <button
+        onClick={() => handleAddToCart(props.player)}
+        className="btn-cart"
+      >
+        Add to Cart
+      </button>
     </div>
   );
 };
