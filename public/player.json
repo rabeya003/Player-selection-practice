@@ -1,0 +1,58 @@
+[ 
+    { 
+      "id": 1, 
+      "name": "Lionel Messi", 
+      "img": "https://i.ibb.co/h1YGXQ4/Lionel-Messi-20180626.jpg", 
+      "costing_price": 10000000, 
+      "star": 5, 
+      "email": "messi@example.com" 
+    }, 
+    { 
+      "id": 2, 
+      "name": "Cristiano Ronaldo", 
+      "img": "https://i.ibb.co/BK4g1QF/Cristiano-Ronaldo-2018.jpg", 
+      "costing_price": 9500000, 
+      "star": 5, 
+      "email": "ronaldo@example.com" 
+    }, 
+    { 
+      "id": 3, 
+      "name": "Neymar Jr.", 
+      "img": "https://i.ibb.co/BnWCKcs/263429d01a49661b12bd28a003335b00.jpg", 
+      "costing_price": 8500000, 
+      "star": 4, 
+      "email": "neymar@example.com" 
+    }, 
+    { 
+      "id": 4, 
+      "name": "Kylian Mbappé", 
+      "img": "https://i.ibb.co/YyycvBp/Kylian-Mbappe-celebrating-March-2018-cropped.jpg", 
+      "costing_price": 9000000, 
+      "star": 4, 
+      "email": "mbappe@example.com" 
+    }, 
+    { 
+      "id": 5, 
+      "name": "Sergio Ramos", 
+      "img": "https://i.ibb.co/3TCJgTW/Russia-Spain-2017-6.jpg", 
+      "costing_price": 7500000, 
+      "star": 4, 
+      "email": "ramos@example.com" 
+    }, 
+    { 
+      "id": 6, 
+      "name": "Kevin De Bruyne", 
+      "img": "https://i.ibb.co/9cVXLvw/download.jpg", 
+      "costing_price": 8000000, 
+      "star": 4, 
+      "email": "debruyne@example.com" 
+    }, 
+    { 
+      "id": 7, 
+      "name": "Mohamed Salah", 
+      "img": "https://i.ibb.co/F3Tjtcc/mohamed-salah.jpg", 
+      "costing_price": 8500000, 
+      "star": 4, 
+      "email": "salah@example.com" 
+    } 
+  ]
