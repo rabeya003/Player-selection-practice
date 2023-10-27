@@ -2,9 +2,10 @@
     width: 300px;
     height: 400px;
     padding: 20px;
-    background-color: bisque;
+    background-color: rgb(114, 113, 112);
     position: sticky;
     top: 0;
+    color: white;
 
 }
 .selected{

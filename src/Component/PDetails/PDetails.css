@@ -2,9 +2,9 @@
     width: 200px;
     height: 350px;
     padding: 20px;
-    border: 2px solid rgb(118, 117, 117);
+    border: 2px solid rgb(192, 190, 190);
     /* position: relative; */
-    background-color: rgb(228, 231, 231);
+    background-color: rgb(211, 212, 212);
 
 }
 .player img{
@@ -18,8 +18,9 @@
 }
 .btn-cart{
     width: 100%;
-    background-color: rgb(245, 213, 174);    
+    background-color: rgb(186, 184, 181);    
 }
 .btn-cart:hover{
-    background-color: #e38e0f;
+    background-color: #4d4a47;
+    color: white;
 }
